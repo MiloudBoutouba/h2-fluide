@@ -341,7 +341,7 @@ a:not([href]):not([tabindex]):hover {
 
 .navbar-expand-md .navbar-nav .nav-link {
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   padding: 8px 0px;
   margin-left: 20px;
   font-family: sans-serif;
@@ -425,7 +425,7 @@ a.nav-link.page-scroll:hover {
 }
 
 .hero-area .contents {
-  padding: 150px 0;
+  padding: 120px 0;
 }
 
 .hero-area .contents h2 {
@@ -463,13 +463,15 @@ h4.head-title {
 .problemes {
   margin: 10px 0;
   padding: 20px 0 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .problemes-item {
   clear: both;
   height: auto;
   height: 50px;
-  padding: 10px;
+  padding: 15px 10px;
 }
 
 .head-contact {
@@ -492,7 +494,7 @@ h4.head-title {
   -background: url(../img/127e.png) no-repeat center center;
   position: absolute;
   left: 65%;
-  top: 45%
+  top: 50%
 }
 
 .hero-area .contents p {
@@ -509,13 +511,13 @@ h4.head-title {
 }
 
 .hero-area .intro-img {
-  padding: 150px 50px 0 50px
+  padding: 120px 50px 0 50px
 }
 
 .hero-area .intro-img img {
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .hero-area .intro-img2 {
@@ -527,7 +529,7 @@ h4.head-title {
   margin: auto;
   display: block;
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .intro-txt {
@@ -1098,7 +1100,7 @@ section#contact {
   border: none;
   border-radius: 6px;
   padding: 6px 10px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 22px;
   display: flex;
@@ -1117,17 +1119,45 @@ section#contact {
 
 .right-navbar .phone i {
   font-size: 30px;
-  padding-right: 5px;
+  padding-right: 3px;
 }
 
+.right-navbar img,
 .right-navbar svg {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 .rdv {
   color: white;
   text-align: left;
-  padding: 13px 0 0 2px;
-  line-height: 17px;
+  padding: 8px 10px 0 6px;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.reverse.tablet {
+  display: flex;
+  padding-top: 100px;
+}
+
+.reverse.tablet .intro-img2 {
+  padding: 30px 0 0 0 !important;
+
+}
+
+
+.reverse.tablet .basetarifiere {
+  position: static;
+  margin: 0 auto;
+}
+
+.reverse.tablet>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reverse.tablet .intro-img2 img {
+  width: 95%;
 }
