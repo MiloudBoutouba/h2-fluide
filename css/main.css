@@ -425,7 +425,7 @@ a.nav-link.page-scroll:hover {
 }
 
 .hero-area .contents {
-  padding: 120px 0;
+  padding: 120px 0 10px 0;
 }
 
 .hero-area .contents h2 {
@@ -462,7 +462,7 @@ h4.head-title {
 
 .problemes {
   margin: 10px 0;
-  padding: 20px 0 10px 20px;
+  padding: 20px 0 40px 20px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -494,7 +494,7 @@ h4.head-title {
   -background: url(../img/127e.png) no-repeat center center;
   position: absolute;
   left: 65%;
-  top: 50%
+  top: 60%
 }
 
 .hero-area .contents p {
@@ -515,6 +515,7 @@ h4.head-title {
 }
 
 .hero-area .intro-img img {
+  margin: auto;
   display: block;
   height: auto;
   max-width: 80%;
@@ -525,7 +526,7 @@ h4.head-title {
   padding: 20px 20px 0 20px;
 }
 
-.hero-area .intro-img img {
+.hero-area .intro-img2 img {
   margin: auto;
   display: block;
   height: auto;
@@ -546,7 +547,7 @@ h4.head-title {
 }
 
 .intro-whatsapp {
-  padding: 20px 0 20px 0;
+  padding: 60px 0 20px 0;
 }
 
 .intro-whatsapp-num {
@@ -701,6 +702,7 @@ h4.section-title {
   height: 100%;
   background-size: cover;
   transform-origin: 0;
+  padding-top: 30px;
 }
 
 .featured-bg {
@@ -1161,3 +1163,116 @@ section#contact {
 .reverse.tablet .intro-img2 img {
   width: 95%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.social-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  width: 64px;
+  height: 64px;
+  text-decoration: none;
+  border-radius: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.social-button::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+.social-button:focus,
+.social-button:hover {
+  color: #fff;
+}
+.social-button::after {
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  margin-left: calc(-50% - 1px);
+}
+
+i {
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+  font-size: 35px;
+}
+
+
+.social-button--facebook {
+  color: #3b5999;
+}
+.social-button--facebook:hover {
+  background: #3b5999;
+}
+
+.social-button--instagram {
+  color: #e4405f;
+}
+.social-button--instagram:hover {
+  background: #e4405f;
+}
+
+.social-button--snapchat {
+  color: #eec900;
+}
+.social-button--snapchat:hover {
+  background: #eec900;
+}
+
+.social-button--twitter {
+  color: #55acee;
+}
+.social-button--twitter:hover {
+  background: #55acee;
+}
+
+
+/*$social-button-colors: (
+  'mail': #0072c6,
+  'facebook': #3b5999,
+  'linkedin': #0077b5,
+  'github': #6e5494,
+  'codepen': #212121,
+  'steam': #7da10e,
+  'snapchat': #eec900,
+  'twitter': #55acee,
+  'instagram': #e4405f,
+  'npmjs': #c12127,
+);*/
