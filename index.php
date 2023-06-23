@@ -948,20 +948,20 @@
                   <h2 class="section-title">Nous contacter</h2>
                   <p>Pour toutes urgences sur Paris et région parisienne,
                     demandez à être rappelé gratuitement</p>
-                  <form method="GET" action="checksender.php">
+                  <form method="POST" action="checksender.php">
                     <div class="form-group">
-                      <input type="text" class="form-control"
+                      <input type="text" name="full_name" class="form-control"
                         id="exampleFormControlInput1" placeholder="Nom Prénom"
                         required>
                     </div>
                     <div class="form-group">
-                      <input type="email" class="form-control"
+                      <input type="email" name="email" class="form-control"
                         id="exampleFormControlInput1"
                         placeholder="name@example.com" required>
                     </div>
                     <div class="form-group">
                       <textarea class="form-control"
-                        id="exampleFormControlTextarea1" rows="3"
+                        id="exampleFormControlTextarea1" rows="3" name="message"
                         placeholder="Votre message" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary mb-2">CONFIRMER</button>
