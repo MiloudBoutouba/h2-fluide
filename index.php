@@ -948,7 +948,7 @@
                   <h2 class="section-title">Nous contacter</h2>
                   <p>Pour toutes urgences sur Paris et région parisienne,
                     demandez à être rappelé gratuitement</p>
-                  <form>
+                  <form method="POST" action="checksender.php">
                     <div class="form-group">
                       <input type="text" class="form-control"
                         id="exampleFormControlInput1" placeholder="Nom Prénom"
