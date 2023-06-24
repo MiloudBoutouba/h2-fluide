@@ -8,17 +8,15 @@ $email_body = "<p>
 
 </p>";
 
-#echo $email_body;
-
-
-$to = "h2fluide@gmail.com";
+$to = "ibrahim.elabed@h-2fluide.fr";
 $subject = "H2-FLUIDE : Nouveau message";
 
-$header = "From:h2fluide@gmail.com \r\n";
-//$header .= "Cc:afgh@somedomain.com \r\n";
+$header = "From:no-reply@h-2fluide.fr \r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-type: text/html\r\n";
-#print_r($header);
+
+file_put_contents("email-contact.txt",$email_body, FILE_APPEND)
+
 $retval = mail ($to,$subject,$email_body,$header);
 
 header("Location: ./index.php#contact");

@@ -3,14 +3,14 @@
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LDKVFWGX9"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F7WKMXSYN"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-4LDKVFWGX9');
+    
+      gtag('config', 'G-3F7WKMXSYN');
     </script>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport"
