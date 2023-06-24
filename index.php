@@ -3,14 +3,13 @@
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FMTT35FN7"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4LDKVFWGX9"></script>
     <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0FMTT35FN7');
-</script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4LDKVFWGX9');
+    </script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -51,7 +50,7 @@
         <div class="container">
           <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt></a>
           <div class="d-flex align-items-center right-navbar mobile">
-            <a href="https://calendly.com/mildev477" class="d-flex">
+            <a href="https://calendly.com/h2-fluide/30min" class="d-flex">
               <img src="img/calender.png" alt="calender">
             </a>
 
@@ -103,7 +102,7 @@
             </ul>
           </div>
           <div class="d-flex align-items-center right-navbar desktop">
-            <a href="https://calendly.com/mildev477" class="d-flex">
+            <a href="https://calendly.com/h2-fluide/30min" class="d-flex">
               <img src="img/calender.png" alt="calender">
               <span class="rdv tablet">Prenez R.D.V.</span>
             </a>
@@ -148,7 +147,7 @@
             <div class="col-lg-5 col-md-6 col-xs-12">
               <span class="basetarifiere"><img src="img/127e.png" alt></span>
               <div class="intro-whatsapp">
-                <a href="https://calendly.com/mildev477" rel="nofollow"
+                <a href="https://calendly.com/h2-fluide/30min" rel="nofollow"
                   target="_blank" class><img class="intro-whatsapp-num"
                     src="img/prise-rdv.png" alt></a>
               </div>
@@ -237,7 +236,7 @@
               <img src="img/devis.png" alt>
             </div>
             <div class="intro-whatsapp">
-              <a href="https://calendly.com/mildev477" rel="nofollow"
+              <a href="https://calendly.com/h2-fluide/30min" rel="nofollow"
                 target="_blank" class><img class="intro-whatsapp-num"
                   src="img/prise-rdv.png" alt></a>
             </div>
@@ -977,7 +976,7 @@
                 <div class=" float-center">
                   <div class="head-contact-item">
                     <!--<div class="head-contact-img float-left">
-                      <a href="https://calendly.com/mildev477" rel="nofollow"
+                      <a href="https://calendly.com/h2-fluide/30min" rel="nofollow"
                         target="_blank" class><img src="img/prise-rdv.png" alt></a>
                     </div>-->
                       <div class="social-buttons">

@@ -11,10 +11,10 @@ $email_body = "<p>
 #echo $email_body;
 
 
-$to = "mildev477@gmail.com";
+$to = "h2fluide@gmail.com";
 $subject = "H2-FLUIDE : Nouveau message";
 
-$header = "From:mildev477@gmail.com \r\n";
+$header = "From:h2fluide@gmail.com \r\n";
 //$header .= "Cc:afgh@somedomain.com \r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-type: text/html\r\n";
