@@ -13,13 +13,10 @@
     </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords"
-      content="Plomberie, Chauffage, Installation Chaudière, Ballon d’eau, Entretien">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="majdi">
+    <meta name="description" content="H-2 FLUIDE est une entreprise spécialisée dans le domaine de la plomberie et du chauffage.">
+    <meta name="keywords" content="Plomberie, Chauffage, Installation Chaudière, Ballon d’eau, Entretien">
+    <meta name="author" content="H-2 Fluide">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>H-2 FLUIDE</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="img/2.png" type="image/png">
@@ -48,7 +45,7 @@
       </div>
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
-          <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt></a>
+          <a href="index.php" class="navbar-brand"><img src="img/logo.png" alt></a>
           <div class="d-flex align-items-center right-navbar mobile">
             <a href="https://calendly.com/h2-fluide/30min" class="d-flex">
               <img src="img/calender.png" alt="calender">
